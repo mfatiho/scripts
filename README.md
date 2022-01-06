@@ -1,4 +1,4 @@
-# scripts
+# Scripts
 
 [Installing cuda 11.4 and cuDNN in Ubuntu 20.04](https://github.com/mfatiho/scripts/tree/main/cudatoolkit-cudnn/ubuntu20.04)
 
