@@ -33,8 +33,9 @@ Before starting the installation, make sure you have installed [nvidia-driver](h
         mkdir build && cd build
         
         export CONDA_ENV=~/miniconda3/envs/[CONDA ENVIROMENT]
-
+        
         cmake -D CMAKE_BUILD_TYPE=RELEASE \
+            -D CMAKE_INSTALL_PREFIX=/usr/local \
             -D WITH_TBB=ON \
             -D ENABLE_FAST_MATH=1 \
             -D CUDA_FAST_MATH=1 \
