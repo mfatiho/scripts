@@ -1,5 +1,5 @@
 # Requirements
-Install [nvidia-drivers](https://www.nvidia.com/en-us/drivers/unix). before starting to install **cuda toolkit** and **cudnn**
+Install [nvidia-drivers](https://www.nvidia.com/en-us/drivers/unix). before starting to install **cuda toolkit** and **cuDNN**
 
 # Installation steps
 
@@ -13,7 +13,7 @@ Install [nvidia-drivers](https://www.nvidia.com/en-us/drivers/unix). before star
         sudo apt-get update
         sudo apt-get -y install cuda
 
-2. Install **cudnn**. For the 11.4 cuda version, you can run the following codes in order.
+2. Install **cuDNN**. For the 11.4 cuda version, you can run the following codes in order.
     1. [Download packages](https://developer.nvidia.com/rdp/cudnn-download)
         1. libcudnn8_8.2.4.15-1+cuda11.4_amd64.deb
         1. libcudnn8-dev_8.2.4.15-1+cuda11.4_amd64.deb
@@ -37,10 +37,10 @@ Install [nvidia-drivers](https://www.nvidia.com/en-us/drivers/unix). before star
         export NVCC=/usr/local/cuda-$CUDA/bin/nvcc
         export CFLAGS="-I$CUDA_HOME/include $CFLAGS"
         
-4. Test code
+4. Test the installation of cuDNN
 
         cp -r /usr/src/cudnn_samples_v8/ $HOME
-        
+
         cd $HOME/cudnn_samples_v8/mnistCUDNN/
         make
         ./mnistCUDNN
