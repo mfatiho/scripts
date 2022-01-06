@@ -1,5 +1,6 @@
 # Requirements
-Install [nvidia-drivers](https://www.nvidia.com/en-us/drivers/unix). before starting to install **cuda toolkit** and **cuDNN**
+
+Before starting the installation, make sure you have installed [nvidia-driver](https://www.nvidia.com/en-us/drivers/unix)
 
 # Installation steps
 
