@@ -44,7 +44,7 @@ Before starting the installation, make sure you have installed [nvidia-driver](h
             -D BUILD_opencv_cudacodec=OFF \
             -D WITH_CUDNN=ON \
             -D OPENCV_DNN_CUDA=ON \
-            -D CUDA_ARCH_BIN=8.0 \
+            -D CUDA_ARCH_BIN=8.6 \
             -D WITH_V4L=ON \
             -D WITH_QT=OFF \
             -D WITH_OPENGL=ON \
@@ -65,4 +65,4 @@ Before starting the installation, make sure you have installed [nvidia-driver](h
         sudo ldconfig
 
         # Conda set library
-        ln -s /usr/local/lib/python3.8/site-packages/cv2 $CONDA_ENV/lib/python3.8/site-package/cv2
+        ln -s /usr/local/lib/python3.8/site-packages/cv2 $CONDA_ENV/lib/python3.8/site-packages/cv2
