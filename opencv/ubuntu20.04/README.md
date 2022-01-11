@@ -52,6 +52,7 @@ Before starting the installation, make sure you have installed [nvidia-driver](h
             -D OPENCV_GENERATE_PKGCONFIG=ON \
             -D OPENCV_PC_FILE_NAME=opencv.pc \
             -D OPENCV_ENABLE_NONFREE=ON \
+            -D OPENCV_PYTHON3_INSTALL_PATH=$CONDA_ENV/lib/python3.9/site-packages \
             -D PYTHON_EXECUTABLE=$CONDA_ENV/bin/python \
             -D OPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules \
             -D INSTALL_PYTHON_EXAMPLES=OFF \
