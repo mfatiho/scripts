@@ -66,4 +66,4 @@ Before starting the installation, make sure you have installed [nvidia-driver](h
         sudo ldconfig
 
         # Conda set library
-        ln -s /usr/local/lib/python3.8/site-packages/cv2 $CONDA_ENV/lib/python3.8/site-packages/cv2
+        ln -s /usr/local/lib/python3.9/site-packages/cv2 $CONDA_ENV/lib/python3.9/site-packages/cv2
